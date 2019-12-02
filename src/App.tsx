@@ -1,8 +1,15 @@
 import React from 'react';
 import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
 
+import Home from '../src/pages/home';
+
 const boldStyle = { root: { fontWeight: FontWeights.semibold } };
 
+export const App: React.FunctionComponent = () => {
+  return <Home />;
+}
+
+/*
 export const App: React.FunctionComponent = () => {
   return (
     <Stack
@@ -47,3 +54,4 @@ export const App: React.FunctionComponent = () => {
     </Stack>
   );
 };
+*/
