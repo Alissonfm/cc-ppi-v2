@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* remove style */
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:active, .link:visited {
+  color: initial;
+}
+
+/* helper classes */
+.content {
+  display: block;
+  widows: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.center {
+  margin: 0 auto;
+  display: inline-block;
+}
+.bg-tr {
+  background-color: transparent;
+}
+.transitions {
+  transition: all 0.4s;
+}
+
+/* font-color */
+.f-white {
+  color: white;
+}
+.f-black {
+  color: black;
+}
+
+/* text positioning */
+.tc {
+  text-align: center;
+}
+.tr {
+  text-align: right;
+}
+.tl {
+  text-align: left;
+}
+
+/* position class */
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+
+/* Display classes */
+.dn{
+  display: none;
+}
+.db {
+  display: block;
+}
+.di {
+  display: inline;
+}
+.dib {
+  display: inline-block;
+}
+
+/* Position class */
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+}
+.ps-default {
+  position: static;
+}
+
+
+/* Flex classes */
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: between;
+}
+.items-between {
+  align-items: between;
+}
+
+/* size pre sets */
+.w-100 {
+  width: 100%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-0 {
+  width: 0%;
+}
+.w-auto {
+  width: auto;
+}
+.h-100 {
+  height: 100%;
+}
+.h-50 {
+  height: 50%;
+}
+.h-0 {
+  height: 0px;
+}
+.h-auto {
+  height: auto;
+}
+
+/* padding pre setted */
+.pa12 {
+  padding: 12px;
+}
+.pt12 {
+  padding-top: 12px;
+}
+.pr12 {
+  padding-right: 12px;
+}
+.pl12 {
+  padding-left: 12px;
+}
+.pb12 {
+  padding-bottom: 12px;
+}
+.pv12 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.ph12 {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+.pa24 {
+  padding: 24px;
+}
+.pt24 {
+  padding-top: 24px;
+}
+.pr24 {
+  padding-right: 24px;
+}
+.pl24 {
+  padding-left: 24px;
+}
+.pb24 {
+  padding-bottom: 24px;
+}
+.pv24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.ph24 {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+.pa0 {
+  padding: 0px;
+}
+
+/* margin pre set classes */
+.ma12 {
+  margin: 12px;
+}
+.mt12 {
+  margin-top: 12px;
+}
+.mr12 {
+  margin-right: 12px;
+}
+.ml12 {
+  margin-left: 12px;
+}
+.mb12 {
+  margin-bottom: 12px;
+}
+.mv12 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.mh12 {
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.ma24 {
+  margin: 24px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mr24 {
+  margin-right: 24px;
+}
+.ml24 {
+  margin-left: 24px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.mv24 {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.mh24 {
+  margin-right: 24px;
+  margin-left: 24px;
+}
+.ma0 {
+  margin: 0px;
+}

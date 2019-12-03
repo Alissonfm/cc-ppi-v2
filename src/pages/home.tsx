@@ -1,10 +1,8 @@
-import React from 'react';
+import React from 'react'; 
 
-import { Template } from '../components' 
-
-const Home = () => {
+const Home: React.FunctionComponent = () => {
   return (
-    <Template />
+    <span>HOME</span>
   );
 }
 

@@ -1,13 +1,12 @@
 import React from 'react';
-import { Stack, Text, Link, FontWeights } from 'office-ui-fabric-react';
 
-import Home from '../src/pages/home';
+import RouterService from './pages/router';
 
-const boldStyle = { root: { fontWeight: FontWeights.semibold } };
-
-export const App: React.FunctionComponent = () => {
-  return <Home />;
+const App: React.FunctionComponent = () => {
+  return <RouterService />;
 }
+
+export default App;
 
 /*
 export const App: React.FunctionComponent = () => {
